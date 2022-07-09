@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+}
+.wavebgimage{
+    background-image: url(image/svg\ \(7\).png);
+    background-size: cover;
+    background-position:left;
+    background-color: #daebc1;
+
+    
+}
+.bannerimage{
+    background-image: url(image/svg\ \(9\).png);
+    background-size: cover;
+    background-position:center;
+    background-color: #fafbff;
+
+    
+}
+.footerbg{
+    background-image: url(image/footer\ svg.png);
+    background-size: cover;
+}
+.width{
+    max-width: 500px;
+}
+.bg_blue{
+    background-color:#6888b2 ;
+}
+.bg_lightgreen{
+    background-color: #daebc1;
+}
+.bg_white{
+    background-color: #ffffff;
+}
+.text_color_white{
+ color: #fafbff;
+}
+.text_color_blue{
+    color: #6888b2;
+}
+.bgimage1{
+    background-image: url(image/129908476-vegetarian-cooking-background-with-seasonal-organic-vegetables-and-grains-on-white-top-view-banner-i.webp);
+background-size: cover;
+
+}
+
+.socialicons{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.box {
+height: 290px;
+
+    -webkit-mask:
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top left,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at bottom,transparent 79.5%,white 80%) top center,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top right;
+    mask:
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top left,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at bottom,transparent 79.5%,white 80%) top center,
+      radial-gradient(var(--r1,100%) var(--r2,50%) at top   ,white 79.5%,transparent 80%) top right;
+     /* adjust the 150% to control the covered area, the bigger the value the bigger the area will be*/
+    -webkit-mask-size:33.4% 160%;
+    -webkit-mask-repeat:no-repeat;
+    mask-size:33.4% 40%;
+    mask-repeat:no-repeat;
+  }
+ 
